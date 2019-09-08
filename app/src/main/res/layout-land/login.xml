@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_to_your_account"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="372dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/ic_todo"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="458dp"
+        android:layout_height="43dp"
+        android:text="@string/login"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_register"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="257dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

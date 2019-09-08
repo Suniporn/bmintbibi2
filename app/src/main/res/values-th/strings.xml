@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bmintbibi</string>
+    <string name="don_t_have_an_account_register">ยังไม่มีบัชชีผู้ใช้งาน? สมัครเลย</string>
+    <string name="email">อีเมล</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="login_to_your_account">ลงชื่อเข้าบัญชีผู้ใช้ของคุณ</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="login_fail">เข้าสู่ระบบไม่สำเร็จ</string>
+    <string name="login_success">เข้าสู่ระบบสำเร็จ</string>
+</resources>
